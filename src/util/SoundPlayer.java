@@ -9,5 +9,8 @@ package util;
  * @author yesho
  */
 public class SoundPlayer {
-    
+
+    public static void playSound(String path) {
+        // placeholder
+    }
 }

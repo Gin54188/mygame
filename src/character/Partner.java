@@ -8,6 +8,9 @@ package character;
  *
  * @author yesho
  */
-public class Partner {
-    
+public class Partner extends Character {
+
+    public Partner() {
+        super(80);
+    }
 }

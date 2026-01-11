@@ -9,5 +9,14 @@ package object;
  * @author yesho
  */
 public class Clue {
-    
+
+    private String name;
+
+    public Clue(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }

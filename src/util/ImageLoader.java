@@ -9,5 +9,8 @@ package util;
  * @author yesho
  */
 public class ImageLoader {
-    
+
+    public static void loadImage(String path) {
+        // placeholder
+    }
 }

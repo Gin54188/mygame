@@ -8,6 +8,15 @@ package character;
  *
  * @author yesho
  */
-public class Character {
-    
+public abstract class Character {
+
+    protected int health;
+
+    public Character(int health) {
+        this.health = health;
+    }
+
+    public int getHealth() {
+        return health;
+    }
 }

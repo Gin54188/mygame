@@ -8,6 +8,9 @@ package character;
  *
  * @author yesho
  */
-public class Player {
-    
+public class Player extends Character {
+
+    public Player() {
+        super(100);
+    }
 }

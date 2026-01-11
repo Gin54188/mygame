@@ -9,5 +9,8 @@ package object;
  * @author yesho
  */
 public class Puzzle {
-    
+
+    public boolean checkSolution() {
+        return true;
+    }
 }

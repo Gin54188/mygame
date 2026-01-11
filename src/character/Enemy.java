@@ -8,6 +8,9 @@ package character;
  *
  * @author yesho
  */
-public class Enemy {
-    
+public class Enemy extends Character {
+
+    public Enemy() {
+        super(50);
+    }
 }
